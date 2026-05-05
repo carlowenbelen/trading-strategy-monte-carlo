@@ -143,4 +143,4 @@ MIT &mdash; use it, fork it, ship something.
 
 ---
 
-Built by **Carl Owen E. Belen** &middot; companion analysis tool for my [GoshenFX trading bots](https://github.com/YOUR-USERNAME) &middot; [Portfolio](https://github.com/YOUR-USERNAME)
+Built by **Carl Owen E. Belen** &middot; companion analysis tool for my &middot; [Portfolio](https://github.com/carlowenbelen)
