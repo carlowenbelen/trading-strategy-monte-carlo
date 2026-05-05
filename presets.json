@@ -1,0 +1,58 @@
+{
+  "coinflip-1to1": {
+    "name": "Coin Flip — 50/50 with 1:1 R:R",
+    "description": "Pure coin-flip baseline. No edge, just gambling. Use this to see how randomness alone behaves.",
+    "win_rate": 0.50,
+    "risk_per_trade": 0.01,
+    "reward_to_risk": 1.0,
+    "n_trades": 200
+  },
+  "coinflip-2to1": {
+    "name": "Coin Flip — 50/50 with 2:1 R:R",
+    "description": "Coin-flip win rate but reward is 2× the risk. Strong edge from R:R alone.",
+    "win_rate": 0.50,
+    "risk_per_trade": 0.01,
+    "reward_to_risk": 2.0,
+    "n_trades": 200
+  },
+  "scalp-aggressive": {
+    "name": "High win-rate scalper",
+    "description": "Scalper profile: wins often, but each win is small relative to loss. Vulnerable to losing streaks.",
+    "win_rate": 0.65,
+    "risk_per_trade": 0.01,
+    "reward_to_risk": 0.7,
+    "n_trades": 500
+  },
+  "trend-follow": {
+    "name": "Trend follower",
+    "description": "Classic trend-follow profile: low win rate, big winners. Long stretches of small losses, occasional home runs.",
+    "win_rate": 0.40,
+    "risk_per_trade": 0.01,
+    "reward_to_risk": 2.5,
+    "n_trades": 200
+  },
+  "goshenfx-inspired": {
+    "name": "GoshenFX-inspired (5-bar breakout)",
+    "description": "Modeled loosely on my own MQL5 breakout EAs: ATR stops, conservative position sizing, asymmetric R:R.",
+    "win_rate": 0.42,
+    "risk_per_trade": 0.03,
+    "reward_to_risk": 2.0,
+    "n_trades": 150
+  },
+  "overconfident-trader": {
+    "name": "Overconfident trader",
+    "description": "What happens when you risk too much per trade. Same edge as the trend-follower, but 5% per trade.",
+    "win_rate": 0.40,
+    "risk_per_trade": 0.05,
+    "reward_to_risk": 2.5,
+    "n_trades": 200
+  },
+  "negative-edge": {
+    "name": "Negative-edge gambler",
+    "description": "Slight house edge against you. Models what happens when fees and slippage tip a coin-flip into a losing system.",
+    "win_rate": 0.48,
+    "risk_per_trade": 0.01,
+    "reward_to_risk": 1.0,
+    "n_trades": 500
+  }
+}
