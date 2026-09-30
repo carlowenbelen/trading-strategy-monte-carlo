@@ -35,7 +35,7 @@ Given a strategy described by:
 ## Quick start
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/trading-strategy-monte-carlo.git
+git clone https://github.com/carlowenbelen/trading-strategy-monte-carlo.git
 cd trading-strategy-monte-carlo
 pip install -r requirements.txt
 
